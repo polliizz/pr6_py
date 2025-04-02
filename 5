@@ -1,0 +1,8 @@
+amount = float(input("Суму поповнення: "))
+if amount < 5:
+    print("Мінімальна сума поповнення – 5 грн!")
+    exit()
+if amount > 10000:
+    print("Сума велика")
+    exit()
+print(f"Поповнення на {amount} грн виконано ")

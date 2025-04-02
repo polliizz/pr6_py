@@ -1,0 +1,9 @@
+stock = 24
+quantity = int(input("Кількість товару: "))
+if quantity <= 0:
+    print("Помилка")
+    exit()
+if quantity > stock:
+    print("Недостатньо товару")
+    exit()
+print("Замовлення прийнято")

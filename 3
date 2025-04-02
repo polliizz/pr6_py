@@ -1,0 +1,8 @@
+password = input("Пароль: ")
+if len(password) < 4:
+    print("Пароль короткий")
+    exit()
+if password in ["password", "1234"]:
+    print("Пароль простий")
+    exit()
+print("Вхід ")
